@@ -9,19 +9,19 @@ return (
     <section className="project-section-intern">
       <div className="container">
         <h1 className="project-heading">
-         Demo zum Kalender (in Bearbeitung)
+         Banner Management & Routing System
         </h1>
 
 
 
                   <Button
                     variant="primary"
-                    href={"#Anforderungen"}
+                    href={"https://openbannerdemo1-fmx83pgl5-enricof01s-projects.vercel.app/"}
                     // target="_blank"
                     style={{ marginLeft: "10px" }}
                   >
                     
-                    {"Anforderungen"}
+                    {"Demo"}
                   </Button>
 
         <div
@@ -31,9 +31,9 @@ return (
             boxShadow: "0 10px 30px rgba(0,0,0,0.4)",
           }}
         >
-<div style={{ width: "100%", height: "80vh" }}>
+{/* <div style={{ width: "100%", height: "80vh" }}>
       <iframe
-        src="https://calendarmodule.vercel.app"
+        src="https://openbannerdemo1-fmx83pgl5-enricof01s-projects.vercel.app/"
         title="Kalender"
         style={{
           width: "100%",
@@ -41,8 +41,9 @@ return (
           border: 0,
           borderRadius: 12,
         }}
+        allow="geolocation"
       />
-    </div>
+    </div> */}
         </div>
       </div>
       

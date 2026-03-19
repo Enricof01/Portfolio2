@@ -32,17 +32,16 @@ function Projects() {
               demoLink="/meltingpoint"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Online Kalendersystem (in Bearbeitung)"
-              description="Online Kalendersystem für die Eishalle Reutlingen"
-              ghLink="https://github.com/Enricof01/Calendar"
-              demoLink="/calendar"
-            />
-          </Col>
+<Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={bitsOfCode}
+    isBlog={false}
+    title="Banner Management & Routing System"
+    description="Webanwendung zur Verwaltung von Banner-Standorten auf einer interaktiven Karte für die Eishalle Reutlingen."
+    ghLink="https://github.com/Enricof01/OpenStreetBannerDemo"
+    demoLink="/calendar"
+  />
+</Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
