@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import MeltingPoint from "./components/Meltingpoint";
 import CalendarEmbed from "./components/CalenderEmbed"
 import VocabTrainerEmbed from "./components/VocabTrainerEmbed";
-import { Analytics } from "@vercel/analytics/react"
+
 import {
   BrowserRouter as Router,
   Route,
@@ -35,7 +35,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Analytics></Analytics>
+        
         <Navbar />
         <ScrollToTop />
         <Routes>
